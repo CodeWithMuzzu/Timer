@@ -22,4 +22,6 @@ This is a simple countdown timer implemented in HTML, CSS, and JavaScript. The t
 
 If you find any issues or have suggestions for improvement, please feel free to create an issue or submit a pull request. Contributions are welcome!
 
+## Visit the Site : 
 
+https://codewithmuzzu.github.io/Timer/
