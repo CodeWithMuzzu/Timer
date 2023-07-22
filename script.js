@@ -2,8 +2,8 @@ let total_seconds = 0;
 let timerInterval;
 let isRunning = false;
 
-let endsound = new Audio('assets/end.mp3');
-let timesound = new Audio('assets/timer.mp3');
+let endsound = new Audio('sounds/end.mp3');
+let timesound = new Audio('sounds/timer.mp3');
 
 document.getElementById("minutes").value = 5;
 document.getElementById("hours").style.visibility = "hidden"
