@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Tektur&display=swap" rel="stylesheet">
+    <title>Timer</title>
+</head>
+
+<body>
+    <div class="set-time">
+        <div class="input-time">
+            <form onsubmit="submitTimeForm(event)">
+                <label for="hours">Hours:</label>
+                <input type="number" id="hours" min="0" max="23" maxlength="2" required>
+
+                <label for="minutes">Minutes:</label>
+                <input type="number" id="minutes" min="0" max="59" maxlength="2" required>
+
+                <label for="seconds">Seconds:</label>
+                <input type="number" id="seconds" min="0" max="59" maxlength="2" required>
+
+            </form>
+        </div>
+        <div class="submit-align">
+            <button id="submit" type="submit">Ok</button>
+        </div>
+    </div>
+
+    <div class="flexbox">
+        <p id="timer">00:00:00</p>
+
+
+
+    </div>
+    <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="customtime">Set Time</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,156 @@
+.set-time {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#hours {
+    border: 2px solid #66FCF1;
+    height: 1.8rem;
+    width: 5rem;
+    font-size: 1.3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#minutes {
+    border: 2px solid #66FCF1;
+    height: 1.8rem;
+    width: 5rem;
+    font-size: 1.3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#seconds {
+    border: 2px solid #66FCF1;
+    height: 1.8rem;
+    width: 5rem;
+    font-size: 1.3rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#submit {
+    padding: 2px 10px;
+    border: 2px solid #66FCF1;
+    background-color: #0B0C10;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Tektur', cursive;
+    margin-left: 2rem;
+}
+
+#submit:hover {
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+.flexbox {
+    /* border: 5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    margin-top: 4rem;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 5px solid white; */
+    margin-top: 5rem;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 5rem;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+#start {
+    padding: 5px 25px;
+    border: 2px solid #66FCF1;
+    background-color: #0B0C10;
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: 'Tektur', cursive;
+}
+
+#start:hover {
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+
+#stop {
+    padding: 5px 25px;
+    border: 2px solid #66FCF1;
+    background-color: #0B0C10;
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: 'Tektur', cursive;
+}
+
+#stop:hover {
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+#reset {
+    padding: 5px 25px;
+    border: 2px solid #66FCF1;
+    background-color: #0B0C10;
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: 'Tektur', cursive;
+}
+
+#reset:hover {
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+#customtime {
+    padding: 5px 25px;
+    border: 2px solid #66FCF1;
+    background-color: #0B0C10;
+    color: white;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: 'Tektur', cursive;
+}
+
+#customtime:hover {
+    background-color: #66FCF1;
+    color: #0B0C10;
+}
+
+#timer {
+    font-size: 22rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #66FCF1;
+}
+
+
+
+
+
+html {
+    background-color: #0B0C10;
+}
+
+
+
+/* font-family: 'PT Sans',
+sans-serif;
+font-family: 'Tektur',
+cursive; */
